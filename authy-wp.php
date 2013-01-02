@@ -60,7 +60,7 @@ class Authy_WP {
 	 *
 	 */
 	private function setup() {
-		// Commong plugin elements
+		// Common plugin elements
 		add_action( 'admin_init', array( $this, 'action_admin_init' ) );
 		add_action( 'admin_menu', array( $this, 'action_admin_menu' ) );
 	}
